@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # First, get the zip file
-cd /path/to/put/zip/file && wget -O projectmaster.zip -q https://github.com/fideloper/example/archive/master.zip
+cd /path/to/put/zip/file && wget -O downloadedmaster.zip -q https://github.com/cyberdyne-systems-hackathon/nodecopter-guardarchive/master.zip
 
 # Second, unzip it, if the zip file exists
-if [ -f /path/to/put/zip/file/projectmaster.zip ]; then
+if [ -f /path/to/put/zip/file/downloadedmaster.zip ]; then
     # Unzip the zip file
-    unzip -q /path/to/put/zip/file/projectmaster.zip
+    unzip -q /path/to/put/zip/file/downloadedmaster.zip
 
     # Delete zip file
-    rm /path/to/put/zip/file/projectmaster.zip
+    rm /path/to/put/zip/file/downloadedmaster.zip
 
     # Rename project directory to desired name
     mv Project-master somesite.com
