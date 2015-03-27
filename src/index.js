@@ -4,7 +4,6 @@ var mission  = autonomy.createMission();
 var http = require('http');
 
 
-  client.animateLeds('doubleMissile', 5, 2);
   captureImage();
   startJourney();
 
