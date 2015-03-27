@@ -1,0 +1,2 @@
+# nodecopter-guard
+HI
