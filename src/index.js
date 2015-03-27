@@ -1,8 +1,8 @@
 var df = require('dateformat')
-  , autonomy = require('../')
+  , autonomy = require('../node_modules/ardrone-autonomy')
   , mission  = autonomy.createMission()
-  , arDrone = require('ar-drone')
-  , arDroneConstants = require('ar-drone/lib/constants')
+  , arDrone = require('../nodecopter/node_modules/ar-drone')
+  , arDroneConstants = require('../nodecopter/node_modules/ar-drone/lib/constants')
   ;
 
 function navdata_option_mask(c) {
