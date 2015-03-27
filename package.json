@@ -12,7 +12,8 @@
     "gulp": "^3.8.11"
   },
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node ./src-website/server.js"
   },
   "repository": {
     "type": "git",
